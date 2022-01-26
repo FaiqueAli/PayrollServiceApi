@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "fc68b70e-7dd6-49d4-b152-dbf5446d0aee": {
+      "ProjectGuid": "fc68b70e-7dd6-49d4-b152-dbf5446d0aee",
+      "DisplayName": "PayrollServiceUnitTest",
+      "ColorIndex": 0
+    },
+    "9f93e1d8-d28b-4453-8587-04c112981d5f": {
+      "ProjectGuid": "9f93e1d8-d28b-4453-8587-04c112981d5f",
+      "DisplayName": "PayrollServiceApi",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
