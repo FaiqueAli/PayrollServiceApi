@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/PayrollServiceApi/bin/Debug
+/PayrollServiceApi/bin
+/PayrollServiceApi/obj
+/PayrollServiceUnitTest/bin/Debug
+/PayrollServiceUnitTest/bin
+/PayrollServiceUnitTest/obj

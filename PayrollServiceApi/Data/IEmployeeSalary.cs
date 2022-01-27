@@ -11,5 +11,6 @@ namespace PayrollServiceApi.Data
     {
         double SalaryTax(string countryCode, double salaryAmount);
         EmployeeSalary SalaryDetails(Employee employee);
+        List<TaxRegion> GetAllTaxRegion();
     }
 }

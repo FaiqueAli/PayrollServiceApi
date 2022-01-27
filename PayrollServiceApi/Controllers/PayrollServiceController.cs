@@ -34,5 +34,12 @@ namespace PayrollServiceApi.Controllers
             else
                 return Ok(empPayroll);
         }
+        [HttpGet]
+        //https://localhost:44330/api/Payrollservice/GetTaxRegons
+        public IHttpActionResult GetTaxRegons()
+        {
+            return Ok(_repository.GetAllTaxRegion());
+
+        }
     }
 }

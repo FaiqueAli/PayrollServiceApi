@@ -22,6 +22,13 @@ namespace PayrollServiceApi.Data
                 primarySocialChargeAmountRange=0,primarySocialChargePercentage=0,secondarySocialChargePercentage=0 }
 
             };
+
+        public List<TaxRegion> GetAllTaxRegion()
+        {
+            var lsRegons = lsRegions.ToList();
+            return lsRegons;
+        }
+
         public EmployeeSalary SalaryDetails(Employee employee)
         {
             double salaryAmount;
